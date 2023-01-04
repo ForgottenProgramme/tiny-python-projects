@@ -17,3 +17,6 @@ for x in range(WIDTH):
         
     nextCells.append(column) # nextCells is a list of column lists.
 
+while True: # Main program loop.
+    print("\n\n\n\n\n") # Separate each step with newlines.
+    currentCells = copy.deepcopy(nextCells)
