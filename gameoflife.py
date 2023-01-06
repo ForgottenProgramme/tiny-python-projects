@@ -26,3 +26,5 @@ while True: # Main program loop.
         for x in range(WIDTH):
             print(currentCells[x][y], end='') # Print the # or space.
         print() # print a newline at the end of the row.
+
+    # Calculate the next step's cells based on current's.
