@@ -28,3 +28,6 @@ while True: # Main program loop.
         print() # print a newline at the end of the row.
 
     # Calculate the next step's cells based on current's.
+    for x in range(WIDTH):
+        for y in range(HEIGHT):
+            # Get neighbouring coordinates.
