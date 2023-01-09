@@ -32,4 +32,6 @@ while True: # Main program loop.
         for y in range(HEIGHT):
             # Get neighbouring coordinates.
             # `% WIDTH` ensures leftCoord is always between 0 and WIDTH -1
+            leftCoord = (x-1)%WIDTH
+            
             
