@@ -34,4 +34,5 @@ while True: # Main program loop.
             # `% WIDTH` ensures leftCoord is always between 0 and WIDTH -1
             leftCoord = (x-1)%WIDTH
             rightCoord = (x+1)%WIDTH
+            # streak commit
             
